@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MTG Cards - Prueba CSS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style3.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cc2c61322b.js" crossorigin="anonymous"></script>
+    <script src="assets/jscripts/ejercicio1.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Javascripts</h1>
+        </div>
+        <div class="listado">
+            <div class="tipo">
+                <a class="nav-link" href="index.html"><h3>Ejercicio 1</h3></a>
+            </div>
+            <div class="tipo">
+                <a class="nav-link" href="ejercicio2.html"><h3>Ejercicio 2</h3></a>
+            </div>
+            <div class="tipo">
+                <a class="nav-link" href="ejercicio3.html"><h3>Ejercicio 3</h3></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor_tema">
+            <div class="titulo_categoria" id="tierras_id">
+                <h1>Tierras</h1>
+            </div>
+            <div class="grid-container">
+                <article>
+                    <select name="select_1" id="valor_1">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select name="select_2" id="valor_2">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+            
+                    <select name="select_3" id="valor_3">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <button id="validar" onclick="validaPassword()" >Pruebe Contraseña</button>
+                    
+                </article>
+            </div>
+            <p id="mensaje_verifica">Presione Boton para validar</p>
+            <p id="mensaje_ok" style="display: none;"><i class="fa-solid fa-clipboard-check"></i></p>
+            <p id="mensaje_nok" style="display: none;"><i class="fa-solid fa-triangle-exclamation"></i></i></p>
+        </div>
+    </main>
+</body>
+</html>

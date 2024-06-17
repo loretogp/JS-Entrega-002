@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MTG Cards - Prueba CSS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style2.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cc2c61322b.js" crossorigin="anonymous"></script>
+    <script src="assets/jscripts/ejercicio1.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Javascripts</h1>
+        </div>
+        <div class="listado">
+            <div class="tipo">
+                <a class="nav-link" href="index.html"><h3>Ejercicio 1</h3></a>
+            </div>
+            <div class="tipo">
+                <a class="nav-link" href="ejercicio2.html"><h3>Ejercicio 2</h3></a>
+            </div>
+            <div class="tipo">
+                <a class="nav-link" href="ejercicio3.html"><h3>Ejercicio 3</h3></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contenedor_tema">
+            <div class="titulo_categoria">
+                <h1>Ejercicio 2 - Cuenta Stickers</h1>
+            </div>
+            <div class="grid-container">
+                <article>
+                    <img src="assets/img/GideonAllyOfZendikar.jpg" alt="Gideon" class="imagenes" />
+                    <div>
+                        <h3>Gideon</h3>
+                        <input type="number" id="sticker_gideon" min="0" value="0">
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/img/jace-the-mind-sculptor.jpg" alt="Jace" class="imagenes" />
+                    <div>
+                        <h3>Jace</h3>
+                        <input type="number" id="sticker_jace" min="0" value="0">
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/img/liliana.jpg" alt="Liliana" class="imagenes" />
+                    <div>
+                        <h3>Liliana</h3>
+                        <input type="number" id="sticker_liliana" min="0" value="0">
+                    </div>
+                </article>
+            </div>
+            <p id="respuesta_valida">Ingrese cantidades y valide.</p>
+            <button onclick="calcularCantidadStickers()"> Verificar </button>
+        </div>
+    </main>
+</body>
+</html>
